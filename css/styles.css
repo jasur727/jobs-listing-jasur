@@ -16,6 +16,18 @@
   font-display: swap;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+
 .container{
   max-width: 1150px;
   padding-left: 20px;
